@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: aqua;
+    background-color: rgb(60, 56, 56);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+ h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    padding: 0rem;
+    background-color: bisque;
+    
+}
+/*footer{
+    background-color: black;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+footer p{
+    background-color: rgb(67, 61, 61);
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    font-size: 2.5rem;
+    position: sticky;
+    bottom: 0%;
+}
+footer h2{
+    font-size: 2.5rem;
+}
+footer address{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+span{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;  
+}
+button{
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 0.5rem;
+    backdrop-filter: blur(15px);
+    
+}
+button:hover,
+button:focus{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    background-color: rgb(155, 26, 52);
+}
+form{
+    background-image: url("../images/fresh-sandwich-.avif")  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    
+    
+}
+fieldset{
+    
+    backdrop-filter: blur(15px);
+    /*width: 900px;
+    height: 450px;*/
+    /*min-height: 50vh;*/
+    border: 2px solid  black;
+    border-radius: 10%;
+    display: block;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;   
+}
+h3{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    padding: 0.5rem;
+    color: rgb(236, 107, 107);
+}
+fieldset p{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.2rem;
+    color: rgb(227, 227, 103);
+}
+fieldset label{
+    font-size: 2.5rem;
+}
+fieldset:hover,
+fieldset:focus{
+    animation-name: slide;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes slide{
+    0%{
+        transform: scaleX(0.9);
+
+    }
+    25%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scaleX(1.1);
+    }
+    75%{
+        transform: scaleX(1.2);
+    }
+    100%{
+        transform: scaleX(1.3);
+        
+    }
+
+}

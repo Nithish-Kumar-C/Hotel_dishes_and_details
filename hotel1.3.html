@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="restaurant">
+        <link rel="icon" href="images/frenchhotel.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/hotel1.3.css" type="text/css">
+        <title>my third own page</title>
+    </head>
+    <body>
+        <article>
+            <h1>contact me</h1>
+            <section>
+                <h2>contact me and more information</h2>
+                <form action="https://httpbin.org/get" method="get">
+                
+                <fieldset class="firstname">
+                    
+                    <h3>personal info</h3>
+                    <!--<legend>personal info</legend>-->
+                    <p>
+                        <label for="firstname">First name:</label>
+                        <input type="text" name="firstname" id="firstname" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="lastname">Last name:</label>
+                        <input type="text" name="lastname" id="lastname" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone no:</label>
+                        <input type="tel" name="phone" id="phone" autocomplete="on" pattern="{0-9}{3} {0-9}{3} {0-9}{4}" required>
+                    </p>
+                    <p>
+                        <label for="mail">email:</label>
+                        <input type="text" name="mail" id="mail" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="address">Address:</label>
+                        <input type="text" name="address" id="address" autocomplete="on" required>
+                    </p>
+                   
+                </fieldset>
+                
+                <fieldset>
+                    <!--<legend>your favourite food ate FWFR</legend>-->
+                    <h3>your favourite food ate FWFR</h3>
+                    <p>
+                        <input type="checkbox" name="dish" id="frenchfood" value="frenchfood">
+                        <label for="frenchfood">French food</label>  
+                    </p>
+                    <p>
+                        <input type="checkbox" name="food" id="indianfood" value="indianfood">
+                        <label for="indianfood">Indian food</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="ice" id="icecream" value="icecream">
+                        <label for="icecream">Icecream</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <!--<legend>note</legend>-->
+                    <h3>note</h3>
+                    <label for="feedback">your feedback</label>
+                    <p>
+                        <textarea name="feedback" id="feedback" placeholder="type here" cols="80" rows="20"></textarea>
+                    </p>
+                </fieldset>
+                <span>
+                <button type="submit">Submit</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                <button type="reset">reset</button>
+                </span>
+                </form>
+            </section>
+        </article>
+        <hr>
+        <footer>
+            <h2>Address for restaurant</h2>
+            <address>13street pillaiyar kovil,velachery,chennai-636810</address>
+            <p class="copy">
+                copyright&copy;contact me
+            </p>
+        </footer>
+        <hr>
+    </body>
+</html>

@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    background: radial-gradient(whitesmoke,rgb(207, 186, 186));
+}
+nav{
+    background-color: grey;
+    color: black;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem;
+}
+nav li{
+    display: flex;
+    flex-direction: column;
+
+}
+a{
+    color:whitesmoke;
+    padding: 1rem;
+    text-decoration: none;
+
+}
+ li a:visited{
+    color: bisque;
+}
+li a:active{
+    color: blueviolet;
+}
+li a:hover,
+li a:focus{
+    color: brown;
+    transform: scaleX(1.5);
+    transition: all 0.5s;
+}
+.dish_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.french_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indian_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure{
+    padding: 1rem;
+}
+figure img:hover,
+figure img:focus{
+    transform: scale(1.1);
+    transition: all 2.5s;
+}
+main{
+    font-size: 1.5rem;
+}
+section{
+    border: 3px solid black;
+    padding-bottom: 0.5rem;
+}
+h1{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 10rem;
+    background-color: rosybrown;
+    border: 2px solid black;
+    position: sticky;
+    top: 0%;
+    
+    text-align: center;
+    z-index: 1;
+    
+    
+}
+h2{
+    padding: 0.5rem;
+    font-size: 3rem;
+    color: rgb(186, 131, 83);
+    padding-top: 1rem;
+    
+}
+.decorate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: whitesmoke;
+}
+h3{
+    font-size: 2.5rem;
+    font-style: italic;
+    color: rgb(46, 57, 90);
+    padding: 1rem;
+}
+/*header{
+    border: 2px solid black;
+}*/
+
+/*figcaption{
+    font-size: 2rem;
+}*/
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+   
+    
+    border-radius: 5%;
+}
+p{
+    text-transform: capitalize;
+    text-align: left;
+    text-indent: 2rem;
+    /*letter-spacing: 0.1rem;*/
+    word-spacing: 0.5rem;
+    /*list-style-position: outside;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table,tr,th,td{
+    border:1px solid black;
+    font-family:'courier new',courier,monospace;
+    border-collapse:collapse;
+    padding:1rem;
+    color: rgb(68, 68, 123);
+    background-color: whitesmoke;
+}
+section table{
+    display: grid;
+    justify-content: center;
+    align-items:center;
+}
+section caption{
+    color: cadetblue;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+/*section thead{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}*/
+ p a{
+    color: blue;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: rosybrown;
+    font-size: 2rem;
+    position: sticky;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

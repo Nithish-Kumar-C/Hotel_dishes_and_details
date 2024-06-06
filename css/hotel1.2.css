@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+nav ul{
+    font-size: 3rem;
+    background-color: rgb(180, 171, 171);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav li{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+a{
+    /*color: whitesmoke;
+    position: sticky;
+    top: 0;*/
+    padding: 1rem;
+
+}
+li a:visited{
+    color: beige;
+}
+li a:active{
+    color: aqua;
+}
+li a:hover,
+li a:focus{
+    color: chocolate;
+    transform: scaleX(1.2);
+    transition: all 0.5s;
+}
+article{
+    border: 2px solid black;
+}
+h1{
+    background-color: rgb(137, 178, 179);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid black;
+}
+h2{
+    font-size: 2.5rem;
+    color: rgb(172, 140, 58);
+    padding: 1rem;
+    
+}
+.color{
+    background-color: rosybrown;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icecream_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure{
+    padding: 1rem;
+}
+img{
+    border-radius: 5%;
+}
+figure img:hover,
+figure img:focus{
+    transform: scaleX(1.1);
+    transition: all 2.5s;
+}
+h3{
+    font-size: 2.5rem;
+    color: rgb(50, 50, 93);
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+}
+p{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+details summary{
+    font-size: 2.5rem;
+    color: aqua;
+    padding: 0.5rem;
+}
+.background{
+    color: black;
+    background-color: rgb(116, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+footer{
+    font-size: 2.5rem;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    bottom: 0;
+}
